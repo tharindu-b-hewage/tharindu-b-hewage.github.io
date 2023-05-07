@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://tharindu-b-hewage.github.io/home/sitemap.xml
