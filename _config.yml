@@ -20,11 +20,14 @@ author: Tharindu B. Hewage
 ###############################################
 
 navbar-links:
+  Home: "https://hewage.io"
+  Publications: "publications"
+  My Career: "career"
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "http://hewage.io"
+#  Resources:
+#    - Beautiful Jekyll: "https://beautifuljekyll.com"
+#    - Learn markdown: "https://www.markdowntutorial.com/"
+#  Author's home: "http://hewage.io"
 
 ################
 # --- Logo --- #
