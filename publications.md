@@ -5,26 +5,137 @@ title: Publications
 You can also browse my [Google Scholar profile](https://scholar.google.com/citations?user=x7ilUIsAAAAJ&hl=en&oi=ao).
 
 I have collaborated with the following institutes.
+- Vienna University of Technology, Vienna, Austria
+- Technical University of Madrid, Madrid, Spain
+- University of Melbourne, Victoria, Australia
+
 <hr>
-<div class="parent-div">
-  <div class="child-div" style="width: 30%;">
-    <div>
-      <img src="/assets/img/tu-wien-logo.png" alt="Avatar" style="width: 40%; padding: 5px; display: block;margin-left: auto;margin-right: auto;">
-    </div>
-    <div style="padding: 5px; font-size: 0.8em; text-align: center">
-      <strong>Vienna University of Technology, Austria</strong>
-    </div>
-  </div>
-  <div class="child-div" style="width: 30%;">
-    <div>
-      <img src="/assets/img/upm-logo.png" alt="Avatar" style="width: 80%; padding: 5px; display: block;margin-left: auto;margin-right: auto;">
-    </div>
-    <div style="padding: 5px; font-size: 0.8em; text-align: center">
-      <strong>Technical University of Madrid, Spain</strong>
-    </div>
-  </div>
+<div class="distribution-map">
+    <img src="/assets/img/map.png" alt="" />
+    
+    <!-- Austria-->
+    <button class="map-point" style="top:38%;left:52%">
+        <div class="content">
+            <div class="institute-logo">
+              <img src="/assets/img/tu-wien-logo.svg" alt="">
+            </div>
+        </div>
+    </button>
+
+    <!-- Spain-->
+    <button class="map-point" style="top:42%;left:46%">
+        <div class="content">
+            <div class="institute-logo">
+              <img src="/assets/img/upm-logo.jpg" alt="" style="width: 180%">
+            </div>
+        </div>
+    </button>
+
+    <!-- Australia-->
+    <button class="map-point" style="top:80%;left: 83.5%">
+        <div class="content">
+            <div class="institute-logo">
+              <img src="/assets/img/unimelb-logo.svg" alt="" style="width: 60%">
+            </div>
+        </div>
+    </button>
 </div>
+<style>
+  .img-point {
+    height: 50%;
+    width: 50%;
+  }
+  .outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .distribution-map {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  .institute-logo {
+    position: relative;
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+    margin: 5px auto;
+  }
+  .distribution-map > img {
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  .distribution-map .map-point {
+    cursor: pointer;
+    outline: none;
+    z-index: 0;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    opacity: 0.8;
+    transform: translate(-50%, -50%);
+    -moz-transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
+    -o-transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
+    -webkit-transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out, z-index 0.25s ease-in-out;
+    -webkit-transition-delay: 0.25s, 0.25s, 0.25s, 0.25s;
+    transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
+    background: rgb(255,255,255);
+    border: 8px solid #000000;
+  }
+  .distribution-map .map-point .content {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: overlay;
+  }
+  .distribution-map .map-point:active, .distribution-map .map-point:focus {
+    margin: 0;
+    padding: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1;
+    width: 300px;
+    height: 220px;
+    color: #e5e5e5;
+    z-index: 1;
+    transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out;
+  }
+  .distribution-map .map-point:active .content, .distribution-map .map-point:focus .content {
+    filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1;
+    -moz-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
+    -o-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
+    -webkit-transition: opacity 0.25s ease-in-out, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
+    -webkit-transition-delay: 0.25s, 0s, 0s;
+    transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
+    overflow: hidden;
+  }
+  .distribution-map .map-point:active .content a:hover, .distribution-map .map-point:active .content a:active, .distribution-map .map-point:focus .content a:hover, .distribution-map .map-point:focus .content a:active {
+    color: #afe1fa;
+  }
+    .description {
+    max-width: 600px;
+    margin: 0 auto;
+    color: rgba(229, 229, 229, 0.7);
+  }
+  
+  div, img, footer {
+    position: relative;
+    box-sizing: border-box;
+  }
+</style>
 <hr>
+
 #### Pinned
 
 <div class="card padded-div">
