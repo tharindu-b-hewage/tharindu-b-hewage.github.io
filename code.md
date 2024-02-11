@@ -44,7 +44,7 @@ title: CODE
             <p>
                 A system written in C++ that consumes a satellite video stream, which leverage inferring of a stacked
                 multi-samples through a deep neural network to detect targeted content. Image processing is handled via
-                OpenCV and model is trained and server via Caffe.
+                OpenCV and model is trained and served via Caffe.
             </p>
         </div>
     </div>
