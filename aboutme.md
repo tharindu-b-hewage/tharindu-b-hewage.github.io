@@ -4,7 +4,7 @@ title: About me
 subtitle: Well, its Food, Music, and Travel for me!
 ---
 <p class="story">
-Hi I'm Tharindu! `Tharindu` means `Moon` in Sinhalese! I am from the beautiful island nation of Sri Lanka, and sinhalese 
+Hi I'm Tharindu! `Tharindu` means `Moon` in Sinhala! I am from the beautiful island nation of Sri Lanka, and Sinhala 
 is one of the languages it speaks. Let's have a look at where Sri Lanka is. It's a teardrop shaped island right below 
 India.
 </p>
