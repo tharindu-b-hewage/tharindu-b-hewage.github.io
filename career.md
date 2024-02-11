@@ -32,7 +32,9 @@ title: My Career
                 the product team, organized and lead a community call, and conducted customer trainings. I also got the 
                 opportunity to represent the company as the senior engineer with CIAM (Customer Identity and Access Management)
                 domain knowledge, in one of the largest integration project the company conducted at that time, for a 
-                signature-brand in the USA hospitality industry.
+                signature-brand in the USA hospitality industry. Feel free to have a look at 
+                <a href="https://www.linkedin.com/in/tharindu-b-hewage/">recommendations</a> that 
+                my wonderful past team-leads took time to write.
             </p>
         </div>
     </div>
