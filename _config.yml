@@ -23,6 +23,7 @@ navbar-links:
   HOME: "https://hewage.io"
   CAREER: "career"
   PUBLICATIONS: "publications"
+  CODE: "code"
   ABOUT ME: "aboutme"
 #  Resources:
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"
