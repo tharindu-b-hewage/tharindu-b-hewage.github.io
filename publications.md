@@ -4,10 +4,10 @@ title: Publications
 ---
 You can also browse my [Google Scholar profile](https://scholar.google.com/citations?user=x7ilUIsAAAAJ&hl=en&oi=ao).
 
-I have collaborated with the following institutes.
-- Vienna University of Technology, Vienna, Austria
-- Technical University of Madrid, Madrid, Spain
-- University of Melbourne, Victoria, Australia
+I have collaborated with researchers from following institutes.
+- ###### Vienna University of Technology, Vienna, Austria
+- ###### Technical University of Madrid, Madrid, Spain
+- ###### University of Melbourne, Victoria, Australia
 
 <hr>
 <div class="distribution-map">

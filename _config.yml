@@ -20,10 +20,10 @@ author: Tharindu B. Hewage
 ###############################################
 
 navbar-links:
-  Home: "https://hewage.io"
-  Publications: "publications"
-  My Career: "career"
-  About Me: "aboutme"
+  HOME: "https://hewage.io"
+  CAREER: "career"
+  PUBLICATIONS: "publications"
+  ABOUT ME: "aboutme"
 #  Resources:
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"
 #    - Learn markdown: "https://www.markdowntutorial.com/"
