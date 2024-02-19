@@ -4,7 +4,7 @@ title: CODE
 ---
 <div class="v-line">
     <div class="entry card">
-        <div class="make-center"><strong><a href="https://github.com/crunchycookie/core-power-mgt">Openstack-GC: Carbon-aware computing for Real-time VMs with Openstack</a></strong></div>
+        <div class="make-center"><strong><a href="https://github.com/crunchycookie/openstack-gc">Openstack-GC: Carbon-aware computing for Real-time VMs with Openstack</a></strong></div>
         <div class="typewriter">
             <p>
                 A framework to harness intermittent Renewable energy for real-time VMs in cloud datacenters, designed to be used with commodity hardware.
