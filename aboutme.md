@@ -43,36 +43,20 @@ And often we come across untouched natural beauties. Here is a snap of a candida
 </p>
 <img style="width: 30em" src="/assets/img/hike-pool.jpg" alt="All rights reserved to original content owner">
 <p class="story">
-I love music! I can play the guitar a bit (a few chords :D), and love to sing along with my wife, friends and family. 
-I have owned two Yamaha guitars, F 310A and FX 370C. These days, I am practicing Piano for leisure with my wonderful piano
-teacher. So far I can play Autumn Breeze by Jacob quite well.
+I love music! I can play the guitar a bit (a few chords :D), and love to sing along with my wife, friends and family.
 </p>
 <p class="story">
-Apart from that, I love to travel around the world and gain different experiences. Here are a few snaps. 
+Apart from that, I love to travel around the world and gain different experiences. Here is a snap! 
 </p>
 <p class="story">
 This is me sky-diving in dubai, flying above the Palm Jumeirah. I was fortunate on that day, because right before the 
 dive a decent sized cloud was floating below us, and we dived straight through it. That was awesome! You can see that
-cloud in the snap below.
+cloud behind us.
 </p>
 <img style="width: 30em" src="/assets/img/skydive.jpg" alt="All rights reserved to original content owner">
+
 <p class="story">
-During the same visit, me and my friends went to visit sand dunes and had a great time in the desert!
-</p>
-<img style="width: 30em" src="/assets/img/dubai.jpg" alt="All rights reserved to original content owner">
-<p class="story">
-Sri Lanka is famous for scuba diving too! This is me during my first ever dive in Unawatuna, south of Sri Lanka. 
-Unfortunately, the water was cloudy that day, so the visibility was less. Nevertheless it was fun! We visited a 
-sunken ship near the coast.
-</p>
-<img style="width: 30em" src="/assets/img/scuba.jpg" alt="All rights reserved to original content owner">
-<p class="story">
-I once visited Austria during summer. I have to say, it was such a beautiful country. I loved my short stay there. Here
-is myself in Salzburg, Austria!
-</p>
-<img style="width: 30em" src="/assets/img/austri.jpg" alt="All rights reserved to original content owner">
-<p class="story">
-Then I moved to Melbourne, Australia, for the Ph.D. I met wonderful friends and traveled few different places around the country.
+I moved to Melbourne, Australia, for the Ph.D. I met wonderful friends and traveled few different places around the country.
 Here is me with my friends from the university.
 </p>
 <img style="width: 30em" src="/assets/img/thari-melbs-2.jpg" alt="All rights reserved to original content owner">
@@ -81,14 +65,6 @@ This is me in Gold Coast, and Sydney.
 </p>
 <img style="width: 30em" src="/assets/img/thari-goald-coast.jpg" alt="All rights reserved to original content owner">
 <img style="width: 30em" src="/assets/img/thari-sydney.jpg" alt="All rights reserved to original content owner">
-<p class="story">
-And recently my wife joined with me! This is a snap of us together in Melbourne.
-</p>
-<img style="width: 30em" src="/assets/img/thari-us.png" alt="All rights reserved to original content owner">
-<p class="story">
-..and its food, together!
-</p>
-<img style="width: 30em" src="/assets/img/thari-melb-godiva.jpg" alt="All rights reserved to original content owner">
 
 <style>
     .story {
