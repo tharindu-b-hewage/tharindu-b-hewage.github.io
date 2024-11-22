@@ -136,22 +136,18 @@ I have collaborated with researchers from following institutes.
 </style>
 <hr>
 
-#### Pinned
-
-<div class="card padded-div">
-    <code style="font-size: 0.8em; color: black; background-color: white; font-family: sans-serif">
-        <strong>T. B. Hewage</strong>, S. Ilager, M. A. Rodriguez, P. Arroba and R. Buyya, "DEMOTS: A Decentralized Task Scheduling Algorithm for Micro-Clouds with Dynamic Power-Budgets"
-    </code>
-    <div class="padded-div">
-        <span class="artifact paper"><a href="https://ieeexplore.ieee.org/document/10255015">Paper</a></span>
-        <span class="label venue">IEEE 16th International Conference on Cloud Computing (CLOUD)</span>
-        <span class="label year">2023</span>
-        <span class="label location">Chicago, IL, USA</span>
+- **2024**
+    <div class="card padded-div">
+        <code style="font-size: 0.8em; color: black; background-color: white; font-family: sans-serif">
+            <strong>T. B. Hewage</strong>, S. Ilager, M. A. Rodriguez, and R. Buyya, "A Framework for Carbon-aware Real-Time Workload Management in Clouds using Renewables-driven Cores"
+        </code>
+        <div class="padded-div">
+            <span class="artifact paper"><a href="https://arxiv.org/abs/2411.07628">Paper</a></span>
+            <span class="artifact paper"><a href="https://github.com/tharindu-b-hewage/openstack-gc">Code</a></span>
+            <span class="label venue">Arxiv pre-print</span>
+            <span class="label year">2024</span>
+        </div>
     </div>
-</div>
-<hr>
-
-#### Timeline
 
 - **2023**
     <div class="card padded-div">
