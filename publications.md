@@ -136,6 +136,19 @@ I have collaborated with researchers from following institutes.
 </style>
 <hr>
 
+- **2025**
+    <div class="card padded-div">
+        <code style="font-size: 0.8em; color: black; background-color: white; font-family: sans-serif">
+            <strong>T. B. Hewage, S. Ilager, M. R. Read, and R. Buyya, ‘Aging-aware CPU Core Management for Embodied Carbon Amortization in Cloud LLM Inference’, arXiv [cs.DC]. 2025."
+        </code>
+        <div class="padded-div">
+            <span class="artifact paper"><a href="https://arxiv.org/abs/2501.15829">Paper</a></span>
+            <span class="artifact paper"><a href="https://github.com/tharindu-b-hewage/splitwise-sim-cpu-carbon">Code</a></span>
+            <span class="label venue">Under Review. Pre-print Available</span>
+            <span class="label year">2025</span>
+        </div>
+    </div>
+
 - **2024**
     <div class="card padded-div">
         <code style="font-size: 0.8em; color: black; background-color: white; font-family: sans-serif">
@@ -144,7 +157,7 @@ I have collaborated with researchers from following institutes.
         <div class="padded-div">
             <span class="artifact paper"><a href="https://arxiv.org/abs/2411.07628">Paper</a></span>
             <span class="artifact paper"><a href="https://github.com/tharindu-b-hewage/openstack-gc">Code</a></span>
-            <span class="label venue">Arxiv pre-print</span>
+            <span class="label venue">Under Review. Pre-print Available</span>
             <span class="label year">2024</span>
         </div>
     </div>
