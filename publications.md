@@ -139,7 +139,7 @@ I have collaborated with researchers from following institutes.
 - **2025**
     <div class="card padded-div">
         <code style="font-size: 0.8em; color: black; background-color: white; font-family: sans-serif">
-            <strong>T. B. Hewage</strong>, S. Ilager, M. R. Read, and R. Buyya, ‘Aging-aware CPU Core Management for Embodied Carbon Amortization in Cloud LLM Inference’, arXiv [cs.DC]. 2025."
+            <strong>T. B. Hewage</strong>, S. Ilager, M. R. Read, and R. Buyya, "Aging-aware CPU Core Management for Embodied Carbon Amortization in Cloud LLM Inference"
         </code>
         <div class="padded-div">
             <span class="artifact paper"><a href="https://arxiv.org/abs/2501.15829">Paper</a></span>
