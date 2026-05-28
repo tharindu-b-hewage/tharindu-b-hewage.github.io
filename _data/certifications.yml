@@ -1,0 +1,15 @@
+# Certifications & awards. Empty for now — add entries as you earn them and they
+# appear automatically on the resume. Fields: name, issuer, year, url (optional)
+#
+# Example:
+# - name: "AWS Certified Solutions Architect – Associate"
+#   issuer: "Amazon Web Services"
+#   year: 2026
+#   url: "https://www.credly.com/..."
+
+- name: "Outstanding Contribution Award (×2)"
+  issuer: "WSO2"
+  year: 2021
+- name: "Melbourne Graduate Research Scholarship"
+  issuer: "University of Melbourne"
+  year: 2021

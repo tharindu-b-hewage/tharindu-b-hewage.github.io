@@ -1,0 +1,12 @@
+# Skills, grouped. Add/rename groups freely — pages iterate this list.
+- group: "Languages"
+  items: ["Go", "Java", "Python", "C / C++", "Bash"]
+
+- group: "Systems & Infrastructure"
+  items: ["Linux", "OpenStack", "Docker", "CPU power management", "Operating systems"]
+
+- group: "Distributed Systems"
+  items: ["Cloud orchestration", "Scheduling", "Simulation at scale", "Fault-tolerant services"]
+
+- group: "Practices"
+  items: ["Open-source development", "Production support", "Performance evaluation", "Technical writing"]

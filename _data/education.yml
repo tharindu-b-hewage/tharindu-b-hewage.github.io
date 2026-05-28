@@ -1,0 +1,22 @@
+# Education — newest first. Fields: degree, org, org_url, start, end, location, note
+- degree: "Ph.D. in Computer Science"
+  org: "University of Melbourne"
+  org_url: "https://www.unimelb.edu.au/"
+  start: "2021"
+  end: "Present"
+  location: "Melbourne, Australia"
+  note: >-
+    Distributed systems for sustainable cloud computing. Melbourne Graduate
+    Research Scholarship recipient. Advised by Prof. Rajkumar Buyya,
+    Dr. Shashikant Ilager (TU Wien), and Dr. Maria A. Rodriguez.
+
+- degree: "B.Sc. Engineering (Hons.), Electronic & Telecommunication"
+  org: "University of Moratuwa"
+  org_url: "https://uom.lk/"
+  start: "2014"
+  end: "2018"
+  location: "Sri Lanka"
+  note: >-
+    First Class Honours. Built a custom-ISA processor on an FPGA in Verilog and a
+    3D-convolutional video action-recognition system. Foundations in computer
+    architecture, networks, and machine vision.

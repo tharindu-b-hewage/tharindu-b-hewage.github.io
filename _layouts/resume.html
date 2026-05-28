@@ -1,0 +1,91 @@
+---
+layout: base
+---
+<article class="resume">
+  <header class="resume-head">
+    <div>
+      <h1 class="resume-name">Tharindu Hewage</h1>
+      <p class="resume-tagline">{{ site.tagline }}</p>
+    </div>
+    <button class="btn btn-primary no-print" onclick="window.print()">download / print pdf</button>
+  </header>
+
+  <ul class="resume-contact">
+    <li><a href="mailto:{{ site.profiles.email }}">{{ site.profiles.email }}</a></li>
+    <li><a href="{{ site.profiles.github }}">github.com/tharindu-b-hewage</a></li>
+    <li><a href="{{ site.profiles.linkedin }}">linkedin.com/in/tharindu-b-hewage</a></li>
+    <li><a href="{{ site.profiles.scholar }}">google scholar</a></li>
+  </ul>
+
+  <section class="resume-section">
+    <h2 class="resume-h2">Summary</h2>
+    <p>{{ site.description }} 3.5 years of enterprise middleware engineering plus
+    PhD research spanning cloud orchestration to host-OS and CPU-level systems.</p>
+  </section>
+
+  <section class="resume-section">
+    <h2 class="resume-h2">Experience</h2>
+    {% for job in site.data.experience %}
+    <div class="resume-entry">
+      <div class="resume-entry-head">
+        <span class="resume-role">{{ job.role }} · {{ job.org }}</span>
+        <span class="resume-dates">{{ job.start }}&ndash;{{ job.end }}</span>
+      </div>
+      {% if job.location %}<p class="resume-loc">{{ job.location }}</p>{% endif %}
+      <ul class="resume-points">
+        {% for pt in job.points %}<li>{{ pt }}</li>{% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </section>
+
+  <section class="resume-section">
+    <h2 class="resume-h2">Skills</h2>
+    <dl class="resume-skills">
+      {% for grp in site.data.skills %}
+      <div><dt>{{ grp.group }}</dt><dd>{{ grp.items | join: " · " }}</dd></div>
+      {% endfor %}
+    </dl>
+  </section>
+
+  <section class="resume-section">
+    <h2 class="resume-h2">Education</h2>
+    {% for ed in site.data.education %}
+    <div class="resume-entry">
+      <div class="resume-entry-head">
+        <span class="resume-role">{{ ed.degree }} · {{ ed.org }}</span>
+        <span class="resume-dates">{{ ed.start }}&ndash;{{ ed.end }}</span>
+      </div>
+      <p class="resume-loc">{{ ed.note }}</p>
+    </div>
+    {% endfor %}
+  </section>
+
+  <section class="resume-section">
+    <h2 class="resume-h2">Selected Publications</h2>
+    {% assign me = site.data.publications.me %}
+    {% capture bold_me %}<strong>{{ me }}</strong>{% endcapture %}
+    <ul class="resume-pubs">
+      {% for pub in site.data.publications.items %}
+      <li>
+        {{ pub.authors | replace: me, bold_me }}.
+        <span class="pub-title">{{ pub.title }}.</span>
+        <span class="muted">{{ pub.venue }}{% if pub.location %}, {{ pub.location }}{% endif %} · {{ pub.year }}.</span>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  {% if site.data.certifications and site.data.certifications.size > 0 %}
+  <section class="resume-section">
+    <h2 class="resume-h2">Awards &amp; Certifications</h2>
+    <ul class="resume-points">
+      {% for c in site.data.certifications %}
+      <li>{{ c.name }} — {{ c.issuer }}{% if c.year %}, {{ c.year }}{% endif %}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  {{ content }}
+</article>

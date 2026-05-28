@@ -1,0 +1,39 @@
+# Publications — newest first. The bold author is rendered from `me` below.
+# Fields per entry: authors, title, venue, year, status (optional), location
+#   (optional), links: { paper, code }
+me: "T. Hewage"
+
+items:
+  - authors: "T. Hewage, S. Ilager, M. R. Read, R. Buyya"
+    title: "Aging-aware CPU Core Management for Embodied Carbon Amortization in Cloud LLM Inference"
+    venue: "Pre-print"
+    status: "Under review"
+    year: 2025
+    links:
+      paper: "https://arxiv.org/abs/2501.15829"
+      code: "https://github.com/tharindu-b-hewage/splitwise-sim-cpu-carbon"
+
+  - authors: "T. Hewage, S. Ilager, M. A. Rodriguez, R. Buyya"
+    title: "A Framework for Carbon-aware Real-Time Workload Management in Clouds using Renewables-driven Cores"
+    venue: "Pre-print"
+    status: "Under review"
+    year: 2024
+    links:
+      paper: "https://arxiv.org/abs/2411.07628"
+      code: "https://github.com/tharindu-b-hewage/openstack-gc"
+
+  - authors: "T. Hewage, S. Ilager, M. A. Rodriguez, P. Arroba, R. Buyya"
+    title: "DEMOTS: A Decentralized Task Scheduling Algorithm for Micro-Clouds with Dynamic Power-Budgets"
+    venue: "IEEE 16th International Conference on Cloud Computing (CLOUD)"
+    location: "Chicago, IL, USA"
+    year: 2023
+    links:
+      paper: "https://ieeexplore.ieee.org/document/10255015"
+
+  - authors: "T. Hewage, S. Ilager, M. A. Rodriguez, R. Buyya"
+    title: "CloudSim Express: A novel framework for rapid low-code simulation of cloud computing environments"
+    venue: "Software: Practice and Experience (Vol. 54, Issue 3)"
+    year: 2023
+    links:
+      paper: "https://onlinelibrary.wiley.com/doi/10.1002/spe.3290"
+      code: "https://github.com/Cloudslab/cloudsim-express"

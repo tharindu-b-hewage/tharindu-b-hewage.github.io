@@ -1,0 +1,41 @@
+# Open-source projects — order = display order. Fields:
+#   name, url, blurb, tags[], featured (true shows on home)
+- name: "openstack-gc"
+  url: "https://github.com/crunchycookie/openstack-gc"
+  blurb: >-
+    OpenStack extension for carbon-aware computing: harnesses intermittent
+    renewable energy for real-time VMs on commodity datacenter hardware.
+  tags: ["OpenStack", "Python", "Cloud Orchestration"]
+  featured: true
+
+- name: "core-power-mgt"
+  url: "https://github.com/crunchycookie/core-power-mgt"
+  blurb: >-
+    A Go service wrapping Intel's Power Optimization Library to manage per-core
+    CPU power features — wiring hardware power control into the cloud control plane.
+  tags: ["Go", "Linux", "CPU / Power"]
+  featured: true
+
+- name: "orion"
+  url: "https://github.com/crunchycookie/orion"
+  blurb: >-
+    An API-driven, Java distributed computing framework: REST task submission, a
+    worker pool executor, and a monitoring app. Featured in Towards Data Science.
+  tags: ["Java", "Distributed Systems", "REST"]
+  featured: true
+
+- name: "cloudsim-express"
+  url: "https://github.com/Cloudslab/cloudsim-express"
+  blurb: >-
+    A low-code framework for rapid simulation of cloud computing environments.
+    Published in Software: Practice and Experience.
+  tags: ["Java", "Simulation"]
+  featured: false
+
+- name: "deep-video-activity-recognition"
+  url: "https://github.com/tharindu-b-hewage/deep-video-activity-recognition"
+  blurb: >-
+    Real-time activity detection in a video feed using a deep 3D-convolutional
+    model (Python).
+  tags: ["Python", "Deep Learning"]
+  featured: false

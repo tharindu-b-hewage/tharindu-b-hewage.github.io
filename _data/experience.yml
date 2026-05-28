@@ -1,0 +1,61 @@
+# Professional experience — newest first.
+# Add a new role by copying a block. Fields:
+#   role, org, org_url, start, end, location, summary (optional), points[], tags[]
+# `end: Present` renders as an open-ended range.
+
+- role: "Graduate Researcher (PhD)"
+  org: "University of Melbourne — CLOUDS Lab"
+  org_url: "http://clouds.cis.unimelb.edu.au/"
+  start: "2021"
+  end: "Present"
+  location: "Melbourne, Australia"
+  summary: >-
+    Building distributed systems for sustainable cloud datacenters, spanning the
+    full stack from cloud orchestration down to host operating systems and CPU
+    hardware — the middleware-to-node perspective.
+  points:
+    - "Designed and implemented carbon-aware scheduling that spans OpenStack orchestration down to per-core CPU power management on Linux hosts."
+    - "Built a Go service over Intel's Power Optimization Library to drive per-core frequency/power features, bridging hardware power control with the cloud control plane."
+    - "Evaluated systems both as working prototypes on commodity hardware and via large-scale simulation; published peer-reviewed results (IEEE CLOUD, SPE)."
+    - "Served on the artifact evaluation committee for USENIX ATC '23; teaching assistant leading tutorials, marking, and assignment design."
+  tags: ["Go", "Java", "Python", "OpenStack", "Linux", "Distributed Systems"]
+
+- role: "Senior Software Engineer"
+  org: "WSO2"
+  org_url: "https://wso2.com/about/"
+  start: "2019"
+  end: "2021"
+  location: "Colombo, SL / Mountain View, CA"
+  summary: >-
+    R&D on the open-source WSO2 Identity Server — enterprise-scale identity and
+    access management middleware.
+  points:
+    - "Led subteams within the product team and represented the company as the senior CIAM engineer on one of its largest integration projects — a signature US hospitality brand."
+    - "Ran production systems for enterprise customers: on-site deployments, performance and incident support, and customer training."
+    - "Two-time recipient of WSO2's Outstanding Contribution award."
+  tags: ["Java", "IAM / CIAM", "Production Support", "Open Source"]
+
+- role: "Software Engineer"
+  org: "WSO2"
+  org_url: "https://github.com/wso2/product-is"
+  start: "2018"
+  end: "2019"
+  location: "Colombo, Sri Lanka"
+  summary: >-
+    Engineer on the R&D team for the open-source WSO2 Identity Server.
+  points:
+    - "Contributed to a large open-source Java codebase serving enterprise IAM deployments."
+    - "Gained hands-on experience running enterprise production systems, customer support, and on-site deployments."
+  tags: ["Java", "Open Source", "Enterprise Middleware"]
+
+- role: "Software Engineering Intern"
+  org: "Visual Concept Labs"
+  org_url: ""
+  start: "2016"
+  end: "2016"
+  location: "Sri Lanka"
+  summary: >-
+    Undergraduate internship building a real-time computer-vision pipeline.
+  points:
+    - "Built a C++ system that processes a live satellite-TV stream and runs a deep image-classification model in real time to embed content-aware advertisements."
+  tags: ["C++", "OpenCV", "Deep Learning"]
