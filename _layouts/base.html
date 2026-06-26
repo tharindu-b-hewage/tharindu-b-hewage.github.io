@@ -3,42 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0d1117">
+  <meta name="theme-color" content="#ffffff">
   {% seo %}
   <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/assets/css/main.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-
-  <header class="site-header">
-    <nav class="nav" aria-label="Primary">
-      <a class="nav-brand" href="/">tharindu<span class="accent">@</span>hewage.io</a>
-      <ul class="nav-links">
-        {% for item in site.nav %}
-        {% assign current = item.url | relative_url %}
-        <li>
-          <a href="{{ item.url | relative_url }}"
-             {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.name }}</a>
-        </li>
-        {% endfor %}
-      </ul>
-    </nav>
-  </header>
-
-  <main id="main" class="site-main">
-    {{ content }}
-  </main>
-
+  {{ content }}
   <footer class="site-footer">
-    <div class="footer-links">
-      {% if site.profiles.github %}<a href="{{ site.profiles.github }}">github</a>{% endif %}
-      {% if site.profiles.linkedin %}<a href="{{ site.profiles.linkedin }}">linkedin</a>{% endif %}
-      {% if site.profiles.scholar %}<a href="{{ site.profiles.scholar }}">scholar</a>{% endif %}
-      {% if site.profiles.medium %}<a href="{{ site.profiles.medium }}">medium</a>{% endif %}
-      {% if site.profiles.email %}<a href="mailto:{{ site.profiles.email }}">email</a>{% endif %}
-    </div>
-    <p class="footer-meta"><span class="muted">$</span> &copy; {{ 'now' | date: "%Y" }} {{ site.author }} · built with jekyll, no frameworks</p>
+    &copy; {{ 'now' | date: "%Y" }} Tharindu Hewage
   </footer>
 </body>
 </html>
