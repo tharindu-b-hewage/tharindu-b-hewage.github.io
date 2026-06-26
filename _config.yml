@@ -6,7 +6,7 @@
 
 title: Tharindu Hewage
 author: Tharindu Hewage
-tagline: "Distributed systems engineer · PhD"
+tagline: "Distributed systems · PhD candidate · University of Melbourne"
 description: >-
   Distributed cloud systems engineer with a PhD and a rare middleware +
   node/OS-level perspective. Building reliable systems at scale.
@@ -23,13 +23,6 @@ profiles:
   medium: "https://medium.com/@tharindu-b-hewage"
   email: "tharindu.b.hewage@gmail.com"
 
-# Top navigation. `name` is shown verbatim (terminal command style).
-nav:
-  - { name: "whoami",   url: "/" }
-  - { name: "work",     url: "/work/" }
-  - { name: "research", url: "/research/" }
-  - { name: "code",     url: "/code/" }
-  - { name: "resume",   url: "/resume/" }
 
 # ---------------------------------------------------------------------------
 # Build settings

@@ -1,52 +1,97 @@
 ---
 layout: base
 ---
-<section class="hero">
-  <p class="prompt"><span class="muted">$</span> whoami</p>
-  <h1 class="hero-title">
-    Tharindu Hewage<span class="cursor" aria-hidden="true"></span>
-  </h1>
-  <p class="hero-lead">
-    Distributed systems engineer with a <strong>PhD</strong> in distributed systems
-    and a rare <strong>middleware&nbsp;+&nbsp;node/OS-level</strong> perspective —
-    from cloud orchestration down to CPU cores.
-  </p>
-  <p class="hero-status">
-    <span class="accent">&gt;</span> Looking to join a team building distributed systems at scale.
-  </p>
-  <div class="hero-actions">
-    <a class="btn btn-primary" href="/resume/">resume</a>
-    <a class="btn" href="{{ site.profiles.github }}">github</a>
-    <a class="btn" href="{{ site.profiles.linkedin }}">linkedin</a>
-  </div>
-</section>
+<div class="page-wrap">
 
-{{ content }}
+  <header class="intro">
+    <img class="intro-photo" src="/assets/img/profile.png" alt="Tharindu Hewage">
+    <div>
+      <h1 class="intro-name">Tharindu Hewage</h1>
+      <p class="intro-tagline">{{ site.tagline }}</p>
+      <ul class="intro-links">
+        {% if site.profiles.github %}<li><a href="{{ site.profiles.github }}">GitHub</a></li>{% endif %}
+        {% if site.profiles.linkedin %}<li><a href="{{ site.profiles.linkedin }}">LinkedIn</a></li>{% endif %}
+        {% if site.profiles.scholar %}<li><a href="{{ site.profiles.scholar }}">Scholar</a></li>{% endif %}
+        {% if site.profiles.medium %}<li><a href="{{ site.profiles.medium }}">Medium</a></li>{% endif %}
+        {% if site.profiles.email %}<li><a href="mailto:{{ site.profiles.email }}">Email</a></li>{% endif %}
+      </ul>
+    </div>
+  </header>
 
-<section class="home-grid">
-  <a class="card-link" href="/work/">
-    <h2 class="card-title">work <span class="arrow">→</span></h2>
-    <p>PhD research and 3.5 years of enterprise middleware engineering at WSO2.</p>
-  </a>
-  <a class="card-link" href="/research/">
-    <h2 class="card-title">research <span class="arrow">→</span></h2>
-    <p>Peer-reviewed work on carbon-aware scheduling, from orchestration to hardware.</p>
-  </a>
-  <a class="card-link" href="/code/">
-    <h2 class="card-title">code <span class="arrow">→</span></h2>
-    <p>Open-source systems in Go, Java, Python — OpenStack, CPU power, distributed compute.</p>
-  </a>
-</section>
+  <div class="about">{{ content }}</div>
 
-<section class="home-featured">
-  <h2 class="section-label"><span class="muted">$</span> ls featured-projects/</h2>
-  <ul class="project-list">
-    {% for p in site.data.projects %}{% if p.featured %}
-    <li class="project">
-      <a class="project-name" href="{{ p.url }}">{{ p.name }}</a>
-      <p class="project-blurb">{{ p.blurb }}</p>
-      <ul class="tags">{% for t in p.tags %}<li>{{ t }}</li>{% endfor %}</ul>
-    </li>
-    {% endif %}{% endfor %}
-  </ul>
-</section>
+  <hr>
+
+  <section>
+    <h2>Education</h2>
+    <ul class="edu-list">
+      {% for ed in site.data.education %}
+      <li>
+        <p class="edu-degree">{{ ed.degree }}</p>
+        <p class="edu-org"><a href="{{ ed.org_url }}">{{ ed.org }}</a>, {{ ed.location }}</p>
+        <p class="edu-dates">{{ ed.start }}–{{ ed.end }}</p>
+        <p class="edu-note">{{ ed.note }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <hr>
+
+  <section>
+    <h2>Experience</h2>
+    <ul class="exp-list">
+      {% for job in site.data.experience %}
+      <li>
+        <p class="exp-role">{{ job.role }}</p>
+        <p class="exp-meta">
+          {% if job.org_url != "" %}<a href="{{ job.org_url }}">{{ job.org }}</a>{% else %}{{ job.org }}{% endif %}
+          &middot; {{ job.start }}–{{ job.end }} &middot; {{ job.location }}
+        </p>
+        {% if job.summary %}<p class="exp-summary">{{ job.summary }}</p>{% endif %}
+        <ul class="exp-points">
+          {% for pt in job.points %}<li>{{ pt }}</li>{% endfor %}
+        </ul>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <hr>
+
+  <section>
+    <h2>Research</h2>
+    {% assign me = site.data.publications.me %}
+    {% capture bold_me %}<strong>{{ me }}</strong>{% endcapture %}
+    <ul class="pub-list">
+      {% for pub in site.data.publications.items %}
+      <li>
+        <span class="pub-title">{{ pub.title }}</span>
+        <span class="pub-authors">{{ pub.authors | replace: me, bold_me }}</span>
+        <span class="pub-venue">{{ pub.venue }}{% if pub.location %}, {{ pub.location }}{% endif %} &middot; {{ pub.year }}</span>
+        <div class="pub-links">
+          {% if pub.links.paper %}<a href="{{ pub.links.paper }}">paper</a>{% endif %}
+          {% if pub.links.code %}<a href="{{ pub.links.code }}">code</a>{% endif %}
+          {% if pub.status %}<span class="pub-status">{{ pub.status }}</span>{% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  <hr>
+
+  <section>
+    <h2>Projects</h2>
+    <ul class="proj-list">
+      {% for p in site.data.projects %}
+      <li>
+        <a class="proj-name" href="{{ p.url }}">{{ p.name }}</a>
+        <p class="proj-blurb">{{ p.blurb }}</p>
+        <p class="proj-tags">{{ p.tags | join: " &middot; " }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+</div>
